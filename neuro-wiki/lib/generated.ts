@@ -2,6 +2,8 @@ import fs from "node:fs";
 import path from "node:path";
 import type { StructuredInsight } from "@/types/wiki";
 
+export type { StructuredInsight };
+
 const INSIGHTS_DIR = path.join(
   process.cwd(),
   "content",
